@@ -3,3 +3,5 @@ secrets.py
 backup.py
 test.py
 __pycache__
+ misc.md
+.DS_Store
