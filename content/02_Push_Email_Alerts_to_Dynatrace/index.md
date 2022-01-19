@@ -11,18 +11,18 @@ In the next few steps we will walk through the process of coding a simple python
     ```bash
     git clone https://github.com/geoteo/dt-push-email-alerts
     ```
-    ![git_clone](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/git_clone.png)
+    ![git_clone](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/git_clone.png?raw=true)
 
 2. Change your working directory to the repo we just cloned and ensure you have the following.
 
     ```bash
     cd dt-push-email-alerts
     ```
-    ![cd](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/cd.png)
+    ![cd](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/cd.png?raw=true)
 
 3. Using your favorite code editor open up the `secrets.py.template` and input the your personal tenant-specific information.
 
-    ![secrets](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/secrets.png)
+    ![secrets](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/secrets.png?raw=true)
 
 4. Rename `secrets.py.template` to `secrets.py` by running the following command.
 
@@ -141,13 +141,13 @@ In the next few steps we will walk through the process of coding a simple python
 
 10. Review the terminal output.
 
-    ![output](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/output.png)
+    ![output](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/output.png?raw=true)
 
 11. Hop over to your Dynatrace tenant then go to the `Problems` page where you should see 2 custom problems containing the email details within.
 
-    ![problemsOverview](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/problemsOverview.png)
+    ![problemsOverview](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/problemsOverview.png?raw=true)
 
-    ![specificProblem](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/specificProblem.png)
+    ![specificProblem](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/specificProblem.png?raw=true
 
 12. Automate it by using a cronjob to run the script at a frequency of your choosing. (optional)
 
