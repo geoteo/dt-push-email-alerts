@@ -147,7 +147,7 @@ In the next few steps we will walk through the process of coding a simple python
 
     ![problemsOverview](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/problemsOverview.png?raw=true)
 
-    ![specificProblem](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/specificProblem.png?raw=true
+    ![specificProblem](https://github.com/geoteo/dt-push-email-alerts/blob/master/assets/specificProblem.png?raw=true)
 
 12. Automate it by using a cronjob to run the script at a frequency of your choosing. (optional)
 
